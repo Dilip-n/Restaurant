@@ -9,6 +9,7 @@ router.post('/menu', (req,res)=>{
     res.send(menu)
     }).catch((error)=>{
         res.status(400).send(error)
+        
     })
 })
 
